@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3d5d6d; /* Fond noir */
+    color: white; /* Couleur du texte */
+    margin: 0;
+    padding: 0;
+}
+
+.logo-bar {
+    display: flex; /* Utiliser Flexbox pour aligner les logos */
+    justify-content: center; /* Centrer les logos */
+    padding: 10px 0; /* Espacement autour de la barre */
+    background-color:#113145; /* Fond semi-transparent */
+}
+.content-container {
+    background-color: #113145; /* Fond semi-transparent */
+    padding: 20px; /* Espacement interne */
+    border-radius: 10px; /* Coins arrondis */
+    margin: 20px; /* Espacement externe */
+}
+
+
+.profile-photo {
+    display: block; /* Ensures the image behaves like a block element */
+    margin: 2px auto; /* Centers the image horizontally */
+    width: 200px; /* Set a specific width for the image (adjust as necessary) */
+    border-radius: 50px; /* Optional: add rounded corners */
+}
+
+
+.logo {
+    height: 40px; /* Hauteur des logos */
+    margin: 0 20px; /* Espace entre les logos */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.header-content {
+    position: relative;
+}
+
+h1 {
+    font-size: 2.5em;
+    background-color: #113145; /* Fond de couleur bleu */
+    color: white; /* Couleur du texte en blanc */
+    padding: 10px 15px; /* Ajoute du padding autour du texte */
+    border-radius: 10px; /* Coins arrondis */
+    display: inline-block; /* Ajuste le fond à la taille du texte */
+    margin-bottom: 10px; /* Espace en bas du titre */
+}
+h2 {
+    font-size: 1.5em;
+    color: #efae42; /* Couleur du texte en blanc */
+    padding: 10px 15px; /* Ajoute du padding autour du texte */
+    border-radius: 10px; /* Coins arrondis */
+    display: inline-block; /* Ajuste le fond à la taille du texte */
+    margin-bottom: 10px; /* Espace en bas du titre */
+}
+
+.subtitle {
+    font-size: 1.5em; /* Taille du sous-titre */
+    color: #113145; /* Couleur blanche */
+    margin-bottom: 20px; /* Espace en bas du sous-titre */
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center; /* Centrer le contenu du menu */
+}
+
+nav ul {
+    list-style: none;
+    display: flex; /* Utiliser Flexbox pour aligner les éléments */
+    justify-content: center; /* Centrer les éléments dans la barre */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px; /* Espace entre les éléments */
+}
+
+nav a {
+    color: white; /* Couleur des liens */
+    text-decoration: none; /* Pas de soulignement */
+    padding: 10px 15px; /* Ajoute du padding autour des liens */
+    border-radius: 5px; /* Coins arrondis pour les boutons */
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+}
+
+nav a:hover {
+    background-color: rgba(239, 174, 66, 0.5); /* Couleur de fond au survol */
+}
+
+.main-background {
+    background-image: url('/Users/clementinegrethen/Documents/these/website/images/fond.jpg'); /* Chemin de l'image de fond */
+    background-size: cover; /* Couvre toute la zone */
+    background-position: center; /* Centre l'image */
+    padding: 100px; /* Espacement autour du contenu */
+}
+
+
+main {
+    padding: 20px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1); /* Fond semi-transparent */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.progress-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden; /* Pour arrondir les bords de la barre de progression */
+    height: 20px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: rgba(0, 86, 179, 0.8); /* Couleur de la barre de progression */
+    width: 0; /* Initialisé à 0 */
+    transition: width 0.5s; /* Animation de la largeur */
+}
+
+.labels {
+    display: flex;
+    justify-content: space-between; /* Pour aligner les labels */
+}
+
+.current-progress {
+    text-align: center; /* Centrer le texte */
+}
+.about-content {
+    display: flex; /* Use flexbox for the layout */
+    justify-content: space-between; /* Space between text and image */
+    align-items: center; /* Center vertically */
+}
+
+.text-section {
+    flex: 1; /* Takes up available space */
+    padding-right: 20px; /* Space between text and image */
+}
+
+.image-section {
+    flex: 0 0 auto; /* Fixed size for the image */
+}
+
+.profile-photo {
+    width: 150px; /* Set a specific width for the image (adjust as necessary) */
+    border-radius: 10px; /* Optional: add rounded corners */
+}
+.team-container {
+    display: flex; /* Use flexbox to align team members */
+    justify-content: space-between; /* Space team members evenly */
+    flex-wrap: nowrap; /* Prevent wrapping to keep them in one row */
+}
+
+.team-member {
+    flex: 1; /* Allow each member to take equal width */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    margin: 10px; /* Space between team members */
+    text-align: center; /* Center align text */
+    min-width: 200px; /* Set a minimum width to avoid too narrow sections */
+}
+
+.supervisor-photo {
+    width: 80%; /* Make photo 80% width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the photo circular */
+}
