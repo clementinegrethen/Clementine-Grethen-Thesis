@@ -97,7 +97,7 @@ nav a:hover {
 }
 
 .main-background {
-    background-image: url('Clementine-Grethen-Thesis/images/fond.jpg'); /* Chemin de l'image de fond */
+    background-image: url('images/fond.jpg'); /* Chemin de l'image de fond */
     background-size: cover; /* Couvre toute la zone */
     background-position: center; /* Centre l'image */
     padding: 100px; /* Espacement autour du contenu */
